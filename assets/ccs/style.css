@@ -1,11 +1,17 @@
+@font-face {
+    font-family: peanuts;
+    src:url("./PEANUTS_.TTF");
+}
+.peanuts{
+    font-family: peanuts;
+}
+
 body {
     background-color: #4aa;
     color:white;
     margin: 0;
     padding: 0;
-    font-family: "georgia", "times new roman",
-    times, serif;
-    font-size: 18px;
+        font-size: 18px;
     line-height: 150%; 
     }
 
@@ -15,17 +21,31 @@ h1 {
     margin: 0;
     text-align: center;
     padding-top: 20px;
-    padding-botton: 20px;
+    padding-bottom: 20px;
+    }
 
-a {
+a {    
     color: #blue;
-
-
-}
+   }
 
 .container {
     width: 1024px;
-    margin: 0;
+    margin: 0 auto;
+}
+
+#main-bio
+#contact-info,
+#bio-image {float: left;
+}
+
+#contact-info {width:30%
+}
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200 px;
+
 }
 
     
