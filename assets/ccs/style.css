@@ -3,49 +3,33 @@
     src:url("./PEANUTS_.TTF");
 }
 .peanuts{
-    font-family: peanuts;
+    font-family: peanuts
+}
+div {background-color: #ffffff;
+     color: #4aaaa5;
+     margin: 0;
+     padding-top: 20;
+     padding-bottom: 20;
+     
+}
+h1 {color: #ffffff;
+background-color:#4aaaa5;
 }
 
-body {
-    background-color: #4aa;
-    color:white;
-    margin: 0;
-    padding: 0;
-        font-size: 18px;
-    line-height: 150%; 
-    }
 
-h1 {
-    color: #efeee7;
-    background: #4aaa5;
-    margin: 0;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    }
 
-a {    
-    color: #blue;
-   }
-
-.container {
-    width: 1024px;
-    margin: 0 auto;
+ .container {width: 960px;
+margin: 0 auto;
+}  
+     
+#main-bio,
+#bio-image {float:left;
 }
 
-#main-bio
-#contact-info,
-#bio-image {float: left;
-}
-
-#contact-info {width:30%
-}
 
 #bio-image {
-    margin-right: 20px;
+    margin:-right: 20px;
     width: 200px;
-    height: 200 px;
+    height: 200px;
 
 }
-
-    
