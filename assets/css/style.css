@@ -10,29 +10,31 @@ body {
     margin: 0 0;
     padding: 0;
     background-image: url(../css/wet_snow/wet_snow.png)
-    }
+}
 
 body {font-family:peanuts;
-    }
+}
 
 #mainhead {
     position: relative;
     margin: 0;
     height: 60px;
     background-color: #ffffff;
-    
-    
-    }
+    border-bottom: #666666 solid 6px;
+        
+}
 
 #logo {
     float: left; 
     margin: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 60px;
     background-color: #4aaaa5; 
     color: white;
     font-size:  50px;
     
-    }
+}
 
 .menu{
     float: right;
@@ -41,7 +43,8 @@ body {font-family:peanuts;
     background: white;
     border-bottom-color: #777777;
 
-    }
+}
+
 .menu a{
     text-decoration: none;
     text-align: center
@@ -76,7 +79,7 @@ color: #4aaaa5
 
 
 #bio-image {float: left;
-margin-right: 20px;
+margin-right: 70px;
 height: 200px;
 width: 200px
 
@@ -87,17 +90,24 @@ width: 200px
 
 }
 
-#bio-content {padding:  20px
+#bio-wrapper {background: #ffffff;
+
+}
+
+#bio-content {padding:  20px;
+
 
 }
 
 
 
-footer{clear: both;
+footer {clear: both;
+    position: absolute;
+    width: 100%;
 text-align: center;
 background-color: #666666;
 color: #ffffff;
-font-size: 10px;
+font-size: 20px;
 border-top: 8px solid #4aaaa5;
 padding-top: 30px;
 bottom: 0px;
