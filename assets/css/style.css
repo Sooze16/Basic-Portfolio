@@ -1,0 +1,77 @@
+@font-face {
+    font-family: peanuts;
+    src:url("./PEANUTS_.TTF");
+
+}
+
+body {
+    margin: 0 0;
+    padding: 0;
+    background: url(../css/wet_snow/wet_snow.png)
+        
+}
+
+#mainhead {
+    position:fixed;
+    margin: 0;
+    padding: 25px;
+    background-color: grey;
+    z-index: 99;
+    width: 100%
+
+}
+
+#logo {
+    float: left; 
+    background-color: #4aaaa5; 
+    color: white;
+    font-size: 40px;
+}
+
+.menu{
+    float: right;
+    margin-top: 10px;
+    background: white;
+}
+.menu a{
+    margin-left: 15px;
+    text-decoration: none;
+    border-left: 2px solid green;
+    padding-left: 15px;
+   display: inline-block;
+
+}
+.menu a:hover{
+    color: red;
+}
+
+h1 {margin: 0px;
+padding: 10px;
+color: #4aaaa5
+
+}
+
+
+#main-bio {
+
+    clear: both;
+    padding-top:130px; 
+}
+
+
+
+
+#bio-image {float: left;
+margin-right: 20px;
+height: 200px;
+width: 200px}
+
+
+#bio-wrapper {padding: 40px, 0px;
+
+}
+
+
+
+
+    
