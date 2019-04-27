@@ -62,42 +62,46 @@ body {font-family:peanuts;
     color: orange;
 }
 
-h1 {margin: 0px;
-padding: 10px;
-color: #4aaaa5
-
-}
 
 
 #main-bio {
 
     clear: both;
-    padding 40 px 0px; 
+  
+}
+
+#bio-wrapper {background: #ffffff;
+    margin-top: : 150px;
+    margin-right: 150px;
+    margin-left: 150px;  
 }
 
 
+h1 {margin-right: 42px;
+    padding: 10px;
+    color: #4aaaa5
+    
+    }
+    
+p {color: #666666;
+    font-size: 26px;
+
+
+}
 
 
 #bio-image {float: left;
-margin-right: 70px;
+margin-right: 20px;
 height: 200px;
 width: 200px
 
 }
 
 
-#bio-wrapper {padding: 40px, 0px;
-
-}
-
-#bio-wrapper {background: #ffffff;
-
-}
-
-#bio-content {padding:  20px;
 
 
-}
+
+
 
 
 
