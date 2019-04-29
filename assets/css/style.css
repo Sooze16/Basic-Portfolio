@@ -161,9 +161,16 @@ margin-top: 50px;
 
 }
 
-h2 {font:bold color #666666;
+#line {
+    margin-left: 30px;
+    width: 900px;
+    height: 5px;
+    background-color: #666666;
+    border: none;
 
 }
+
+
 
 .caption {
     color: #ffffff;
@@ -176,8 +183,5 @@ h2 {font:bold color #666666;
     margin-right: 100px;
     margin-top: -60px;
        
-
-}
-.caption {hover:color orange;
 
 }
